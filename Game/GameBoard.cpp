@@ -35,8 +35,8 @@ void GameBoard::boardGenerator(){
            row=std::rand() % this->row;
            column = std::rand() % this->column;
 
-        } while (board[row][column]=='M');
-        board[row][column]='M';
+        } while (board[row][column]=='*');
+        board[row][column]='*';
     }
     
 }
